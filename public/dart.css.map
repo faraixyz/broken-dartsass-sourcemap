@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "sourceRoot": "",
+    "sources": [
+        "file://c/dev/broken-dartsass-sourcemap/assets/css/_base.scss",
+        "file://c/dev/broken-dartsass-sourcemap/assets/css/_site-nav.scss",
+        "file://c/dev/broken-dartsass-sourcemap/assets/css/_site-header.scss",
+        "file://c/dev/broken-dartsass-sourcemap/assets/css/_utilities.scss"
+    ],
+    "names": [],
+    "mappings": "AAAA;EACI;;;AAGJ;EACI;EAGA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EAlBJ;IAmBQ;IACA;IACA;IACA;IACA;;;;AAIR;EACI;;AAEA;EACI;;AAGJ;EACI;;;AAMR;EACI;EACA;EACA;EACA;EACA;;AAEA;EAPJ;IAQQ;;;;AAIR;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;;;ACvFJ;EACI;EACA;EACA;;AAEA;EACI;EACA;;;ACPR;EACI;EACA;EACA;;AAEA;EACI;;AAGJ;EACI;;;AAIR;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAGJ;EAbJ;IAcQ;IACA;;;;AAIR;EACI;;;AClCJ;EACI;;AACA;EACI;;;AAIR;EACI;;;AAIA;EADJ;IAEQ"
+}

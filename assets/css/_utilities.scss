@@ -1,0 +1,16 @@
+.over-scroll {
+    overflow-x: auto;
+    table {
+        white-space: nowrap;
+    }
+}
+
+.wrap-code-blocks .highlight > pre, .wrap-code-blocks.highlight > pre {
+    white-space: pre-wrap !important;
+}
+
+img.invert-hack {
+    @media(prefers-color-scheme: dark) {
+        filter: invert(100%);
+    }
+}

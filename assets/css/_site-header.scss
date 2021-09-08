@@ -1,0 +1,36 @@
+.site-header {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+
+    * {
+        margin: 0;
+    }
+
+    & > * + * {
+        margin-top: 0.25rem;
+    }
+}
+
+.site-header a[href="#main"] {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 0.25rem;
+    outline: none;
+    transform: scale(0);
+
+    &:focus {
+        transform: none;
+    }
+
+    @media(prefers-color-scheme: dark) {
+        color: black;
+        background-color: white;
+    }
+}
+
+.site-header strong {
+    text-align: center;
+}
