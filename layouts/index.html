@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.Title }}</title>
+    {{ $a := resources.Get "a.scss"}}
+    {{ $b := resources.Get "b.scss"}}
+    {{ $libsass := $a | resources.ToCSS (dict "enableSourceMap" true) | resources.Fingerprint }}
+    {{ $dartsass := $b | resources.ToCSS (dict "enableSourceMap" true "transpiler" "dartsass") | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $libsass.Permalink }}">
+    <link rel="stylesheet" href="{{ $dartsass.Permalink }}">
+</head>
+<body>
+    <p>Let's see if it works</p>
+    <a href="/a.css.map">a.css.map</a>
+    <a href="/b.css.map">b.css.map</a>
+</body>
+</html>
