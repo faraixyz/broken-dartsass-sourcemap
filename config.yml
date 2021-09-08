@@ -1,1 +1,3 @@
 title: Source Map Test
+baseURL: https://faraixyz.github.io/broken-dartsass-sourcemap/
+disableKinds: [taxonomy, term, sitemap, RSS]
